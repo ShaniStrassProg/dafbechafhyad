@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import File from './componenets/File';
 // 
 import ChoosePage from './componenets/ChoosePage';
 // import "primereact/resources/primereact.min.css"
@@ -33,8 +34,9 @@ import ChoosePage from './componenets/ChoosePage';
 import Homepage from './componenets/HomePage';
 // primereact/resources/themes/soho-dark/theme.css
 // import 'primereact/resources/themes/viva-light/theme.css'
-import 'primereact/resources/themes/saga-blue/theme.css'
+import 'primereact/resources/themes/vela-blue/theme.css'
 import BasicDemo from './componenets/BasicDemo';
+import FileViewerComponent from './componenets/FileViewerComponent';
 // primereact/resources/themes/mira/theme.css
 // primereact/resources/themes/nano/theme.css
 // primereact/resources/themes/saga-blue/theme.css
@@ -57,6 +59,8 @@ function App() {
     <div className="App">
       {/* <ChoosePage></ChoosePage> */}
       <Homepage></Homepage>
+      {/* <File></File> */}
+      <FileViewerComponent></FileViewerComponent>
         {/* <BasicDemo></BasicDemo> */}
     </div>
   );
